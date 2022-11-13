@@ -1,0 +1,68 @@
+.POST{
+    margin: 0;
+    
+    
+
+    .row{
+        .col-6:first-child{
+            background-color: $primary;
+            height: auto;
+            padding: 40px 0;
+            
+            .PROJECT-CAPTION{
+                font-size: 45px;
+                font-weight: 600;
+            }
+        }
+        li:first-child:before{
+            content: "❤️";
+            background-color: aquamarine;
+            margin: 1px;
+            width: 20px;
+            height: 20px;
+            
+        }
+        li:nth-child(2):before{
+            content: "❤️";
+            background-color: aquamarine;
+            margin: 1px;
+            width: 20px;
+            height: 20px;
+            
+        }
+        li:nth-child(3):before{
+            content: "❤️";
+            background-color: aquamarine;
+            margin: 1px;
+            width: 20px;
+            height: 20px;
+            
+        }
+        
+    }
+
+    .row{
+        .col-6:nth-child(2){
+            margin: 40px 0;
+            
+            h2, .row{
+                margin-bottom: 30px;
+                p{
+                    letter-spacing: 0.2px;
+                    line-height: 115%;
+                }
+                
+            }
+            
+            ul{
+                margin-bottom: 30px;
+                li{
+                    margin-bottom: 30px;
+                    
+                }
+            }
+        }
+    }
+}
+
+

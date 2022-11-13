@@ -1,0 +1,13 @@
+#sommaire{
+    margin: 25px 0;
+    padding: 0;
+    width: 49%;
+    .line{
+        height: 3px;
+        background-color: $secondary;
+        width: 20%;
+        border-radius: 10px;
+        margin: 25px 0;
+    }
+}
+

@@ -1,0 +1,21 @@
+
+title: Portfolio Auriane-Mirana SICARD-RAZAKA
+email: auriane1103@gmail.com
+description: >- 
+  Bienvenue sur le portfolio de Auriane-Mirana SICARD-RAZAKA. Je suis étudiante à Bordeaux en BUT MMI en 2ème année, spécialisée en 
+  développement web front-end, design UI/UX et en recherche de stage et d'alterance pour l'année 2022-2023. 
+baseurl: "" 
+url: "" 
+
+defaults:
+  -
+    scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      permalink: /:slug
+      layout: "default"
+
+collections:
+  pages:
+    output: true

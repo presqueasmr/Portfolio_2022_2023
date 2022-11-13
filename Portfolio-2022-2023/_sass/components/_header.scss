@@ -1,0 +1,17 @@
+
+
+header{
+    position: absolute;
+    .plant_logo{
+        margin-left: 3em;
+    }
+    #plus_socials{
+        padding: 0;
+        #plus_socials:after{
+            content:"";
+            width: 20px;
+            height: auto;
+            background-image: url("../../assets/img/linkedin-logo.svg");
+        }
+    }
+}
