@@ -13,6 +13,7 @@ h1, h2, h3{
 
 h1, h2{
     font-size: 45px;
+    letter-spacing: 1px;
 }
 
 h3{
@@ -37,16 +38,22 @@ li{
 .hero {
     height: auto;
     
-  
+
         .row-1{
                 height: 80vh;
             
             p{
                 width: 80%;
             }
+            .square_left{
+                input[type="button"] {
+                    transform: translateX(-40px);
+                }
+            }
             .square_right{
                 .row{
                     height: 50%;
+                    
                     h2{
                         font-size: 16px;
                     }
@@ -55,7 +62,7 @@ li{
         }
         .row-2{
             background-color: $secondary;
-            color: $background-color;
+            color: $beige;
             text-align: center;
             align-items: center;
             h2{
@@ -96,18 +103,16 @@ li{
 
 
 
-.email::placeholder{
-    color: $primary;
-    opacity: 1;
-    font-family: 'Quicksand', sans-serif;
-}
+
 
 input[type="text"] {
     background-color:transparent;
-    border: 2px solid $background-color;
+    border: 2px solid $beige;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     width: 70%;
+    color: $primary;
+    font-family: 'Quicksand', sans-serif;
     
     
 }
@@ -120,5 +125,21 @@ input[type="button"] {
     width: 40%;
     font-family: 'Shrikhand', cursive;
     font-size: 16px;
-    transform: translateX(-40px);
+    color: $beige;
+    :after{
+        content:'';
+        position: absolute;
+        width: 40%;
+        height: auto;
+        border: 2px solid $secondary;
+    }
+    
+}
+
+
+/////////////////////////////////////POSTS//////////////////////////////////////
+
+.background-sec{
+
+    background-color: $secondary !important;
 }
