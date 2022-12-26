@@ -1,65 +1,28 @@
-<p class="mb-2 ms-5">Projet Jeu VIdéo</p>
+<p class="mb-2 ms-5">{{ include.type-project }}</p>
 <div class="line"></div>
 <section class="container-fluid POST mb-5">
     
     <div class="row d-flex">
         <div class="col-6 ps-5 order-1">      
-            <h2 class="PROJECT-CAPTION mb-4 ">Au Bord des Rues</h2>
+            <h2 class="PROJECT-CAPTION mb-4 ">{{ include.title-project }}</h2>
             <div class="row d-flex">
-                <img src="../assets/img/placeholder1.png" class="col-7">
-                <div class="col-3 d-flex flex-column justify-content-between">
-                    <img src="../assets/img/placeholder1.png" >
-                    <img src="../assets/img/placeholder1.png" style="height: 190px";>
+                <img src="{{ include.photo-project-1 }}" class="col-7">
+                <img  class="col-3 d-flex flex-column justify-content-between" src= "{{ include.photo-project-2 }}" >
 
-                </div>
                 
             </div>
             
         </div>
-        <div class="col-6 pe-5 order-2">
-            <h2>N°2</h2>
+        <div class="col-6 pe-5 order-1">
+            <h2>{{ include.number-project }}</h2>
             
-                <p class="col-11 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minima nam tenetur, totam optio consequatur aliquid modi, nemo iste consectetur vitae? Distinctio dolores minus eligendi voluptatem doloribus consequatur minima? Maxime.</p>
+                <p class="col-11 ">{{ include.description-project }}</p>
                 <ul class="my-4">
-                    <li>Développement</li>
-                    <li>Techno</li>
-                    <li>Gestion de Projet</li>
+                    <li class="d-flex">Rôle : {{ include.role-project }}</li>
+                    <li class="d-flex">Techno : {{ include.techno-project }}</li>
+                    <li class="d-flex">Gestion de Projet : {{ include.gestion-projet }}</li>
                 </ul>
-                <input class="btn btn-primary" type="button" value="Voir tout le projet"></input>
-            
-                
-            
-        </div>
-    </div>
-</section>
-
-<p class="mb-2 ms-5">Projet Jeu Vidéo</p>
-<div class="line"></div>
-<section class="container-fluid POST mb-5">
-    <div class="row d-flex">
-        <div class="col-6 ps-3 order-2 background-sec">      
-            <h2 class="PROJECT-CAPTION mb-4">Au Bord des Rues</h2>
-            <div class="row d-flex col-12">
-                <img src="../assets/img/placeholder1.png" class="col-7">
-                <div class="col-3 d-flex flex-column justify-content-between">
-                    <img src="../assets/img/placeholder1.png" >
-                    <img src="../assets/img/placeholder1.png" style="height: 190px";>
-
-                </div>
-                
-            </div>
-            
-        </div>
-        <div class="col-6 ps-5 order-1">
-            <h2>N°2</h2>
-            
-                <p class="col-11 ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti minima nam tenetur, totam optio consequatur aliquid modi, nemo iste consectetur vitae? Distinctio dolores minus eligendi voluptatem doloribus consequatur minima? Maxime.</p>
-                <ul class="my-4">
-                    <li>Développement</li>
-                    <li>Techno</li>
-                    <li>Gestion de Projet</li>
-                </ul>
-                <input class="btn btn-primary" type="button" value="Voir tout le projet"></input>
+                <button class="btn btn-primary" type="button">Voir tout le projet</button>
             
                 
             

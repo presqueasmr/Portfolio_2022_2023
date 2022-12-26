@@ -17,27 +17,18 @@
             }
         }
         li:first-child:before{
-            content: "❤️";
-            background-color: aquamarine;
+            content: url("../../assets/img/Role.svg");
             margin: 1px;
-            width: 20px;
-            height: 20px;
             
         }
         li:nth-child(2):before{
-            content: "❤️";
-            background-color: aquamarine;
+            content: url("../../assets/img/Techno.svg");
             margin: 1px;
-            width: 20px;
-            height: 20px;
             
         }
         li:nth-child(3):before{
-            content: "❤️";
-            background-color: aquamarine;
+            content: url("../../assets/img/Time.svg");
             margin: 1px;
-            width: 20px;
-            height: 20px;
             
         }
         
@@ -48,7 +39,7 @@
             margin: 40px 0;
             
             h2, .row{
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 p{
                     letter-spacing: 0.2px;
                     line-height: 115%;
@@ -57,9 +48,9 @@
             }
             
             ul{
-                margin-bottom: 30px;
+                margin-bottom: 20px;
                 li{
-                    margin-bottom: 30px;
+                    margin-bottom: 20px;
                     
                 }
             }
